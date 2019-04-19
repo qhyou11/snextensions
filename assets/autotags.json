@@ -1,0 +1,10 @@
+{
+  "identifier": "myplugins.autocompeltetags",
+  "name": "tags plugin",
+  "content_type": "SN|Component",
+  "area": "note-tags",
+  "version": "AUTOTAGS_VERSION",
+  "description": "tags auto.",
+  "url": "https://MY_DOMAIN:1443/autocomplete-tags",
+  "download_url": "https://github.com/sn-extensions/autocomplete-tags/archive/master.zip"
+}

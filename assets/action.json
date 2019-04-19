@@ -1,0 +1,10 @@
+{
+  "identifier": "myplugins.action_bar",
+  "name": "action bar plugin",
+  "content_type": "SN|Component",
+  "area": "editor-stack",
+  "version": "ACTION_VERSION",
+  "description": "action bar.",
+  "url": "https://MY_DOMAIN:1443/action-bar",
+  "download_url": "https://github.com/sn-extensions/action-bar/archive/master.zip"
+}

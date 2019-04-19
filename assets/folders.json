@@ -1,0 +1,11 @@
+{
+  "identifier": "myplugins.folder",
+  "name": "folder plugin",
+  "content_type": "SN|Component",
+  "area": "tags-list",
+  "version": "FOLDER_VERSION",
+  "description": "tags as folder.",
+  "url": "https://MY_DOMAIN:1443/folders-component",
+  "download_url": "https://github.com/sn-extensions/folders-component/archive/master.zip"
+}
+

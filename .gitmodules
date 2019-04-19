@@ -1,3 +1,18 @@
 [submodule "folders-component"]
 	path = folders-component
 	url = https://github.com/sn-extensions/folders-component.git
+[submodule "autocomplete-tags"]
+	path = autocomplete-tags
+	url = https://github.com/sn-extensions/autocomplete-tags
+[submodule "plus-editor"]
+	path = plus-editor
+	url = https://github.com/sn-extensions/plus-editor.git
+[submodule "advanced-markdown-editor"]
+	path = advanced-markdown-editor
+	url = https://github.com/sn-extensions/advanced-markdown-editor.git
+[submodule "simple-task-editor"]
+	path = simple-task-editor
+	url = https://github.com/sn-extensions/simple-task-editor.git
+[submodule "action-bar"]
+	path = action-bar
+	url = https://github.com/sn-extensions/action-bar.git

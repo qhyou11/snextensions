@@ -1,0 +1,10 @@
+{
+  "identifier": "myplugins.advance-markdown-editor",
+  "name": "Advance Markdown Editor",
+  "content_type": "SN|Component",
+  "area": "editor-editor",
+  "version": "MARKDOWN_VERSION",
+  "description": "A fully featured Markdown editor that supports live preview, a styling toolbar, and split pane support.",
+  "url": "https://MY_DOMAIN:1443/advanced-markdown-editor",
+  "download_url": "https://github.com/sn-extensions/advanced-markdown-editor/archive/master.zip"
+}

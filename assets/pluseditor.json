@@ -1,0 +1,10 @@
+{
+  "identifier": "myplugins.plus-editor",
+  "name": "My Plus Editor",
+  "content_type": "SN|Component",
+  "area": "editor-editor",
+  "version": "PLUS_EDITOR_VERSION",
+  "description": "A plus editor.",
+  "url": "https://MY_DOMAIN:1443/plus-editor",
+  "download_url": "https://github.com/sn-extensions/plus-editor/archive/master.zip"
+}

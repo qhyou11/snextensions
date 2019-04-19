@@ -1,0 +1,10 @@
+{
+  "identifier": "myplugins.simple.task.editor",
+  "name": "simple task Editor",
+  "content_type": "SN|Component",
+  "area": "editor-editor",
+  "version": "STASK_VERSION",
+  "description": "simple task editor.",
+  "url": "https://MY_DOMAIN:1443/simple-task-editor",
+  "download_url": "https://github.com/sn-extensions/simple-task-editor/archive/master.zip"
+}
