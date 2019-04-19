@@ -1,0 +1,3 @@
+[submodule "folders-component"]
+	path = folders-component
+	url = https://github.com/sn-extensions/folders-component.git
