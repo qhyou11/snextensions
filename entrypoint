@@ -1,0 +1,32 @@
+#!/usr/bin/env sh
+# $0 is a script name,
+# $1, $2, $3 etc are passed arguments
+# $1 is our command
+CMD=$1
+
+sed  -i "s/MY_DOMAIN/${DOMAIN}/g" /opt/folders-component/ext.json
+sed  -i "s/MY_DOMAIN/${DOMAIN}/g" /opt/advanced-markdown-editor/ext.json
+sed  -i "s/MY_DOMAIN/${DOMAIN}/g" /opt/plus-editor/ext.json
+sed  -i "s/MY_DOMAIN/${DOMAIN}/g" /opt/autocomplete-tags/ext.json
+sed  -i "s/MY_DOMAIN/${DOMAIN}/g" /opt/action-bar/ext.json
+sed  -i "s/MY_DOMAIN/${DOMAIN}/g" /opt/simple-task-editor/ext.json
+
+sed  -i "s/FOLDER_VERSION/${FOLDER_VERSION}/g" /opt/folders-component/ext.json
+sed  -i "s/MARKDOWN_VERSION/${MARKDOWN_VERSION}/g" /opt/advanced-markdown-editor/ext.json
+sed  -i "s/PLUS_EDITOR_VERSION/${PLUS_EDITOR_VERSION}/g" /opt/plus-editor/ext.json
+sed  -i "s/AUTOTAGS_VERSION/${AUTOTAGS_VERSION}/g" /opt/autocomplete-tags/ext.json
+sed  -i "s/ACTION_VERSION/${ACTION_VERSION}/g" /opt/action-bar/ext.json
+sed  -i "s/STASK_VERSION/${STASK_VERSION}/g" /opt/simple-task-editor/ext.json
+
+
+case "$CMD" in
+  'start' )
+    http-server -p 8000 --cors -a
+    ;;
+
+   * )
+    # Run custom command. Thanks to this line we can still use
+    # "docker run our_image /bin/bash" and it will work
+    exec "$@"
+    ;;
+esac
